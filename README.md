@@ -123,7 +123,7 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![1 2e](https://github.com/user-attachments/assets/a84fd9f6-f8eb-49e7-8f46-5499de62eaa2)
+![image](https://github.com/user-attachments/assets/cd80e95c-660e-456d-8b49-8772a0484957)
 
 ### viii) RGB and BGR to YCrCb
 ```
@@ -137,6 +137,7 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![1 2e](https://github.com/user-attachments/assets/a84fd9f6-f8eb-49e7-8f46-5499de62eaa2)
 
 
 ### ix) Split and merge RGB Image
