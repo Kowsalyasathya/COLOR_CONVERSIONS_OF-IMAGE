@@ -79,8 +79,7 @@ cv2.imshow('WINDOW', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![naturek](https://github.com/user-attachments/assets/5103e117-bbf9-4f5a-a236-1154e86259ef)
-
+![Screenshot 2024-09-08 120744](https://github.com/user-attachments/assets/bcbd9b85-cf3f-4feb-9cfa-24790dd1814c)
 
 3.Draw a rectangle around a specific region of interest in the image.
 ```
@@ -191,8 +190,7 @@ cv2.imshow('MODIFIED IMAGE', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-09-09 090318](https://github.com/user-attachments/assets/60fbc978-3772-4249-9148-9c5486c4599e)
-![Screenshot 2024-09-09 090331](https://github.com/user-attachments/assets/3ed7632c-9359-45e6-9aef-3fce7858cc4e)
+![Screenshot 2024-09-09 090237](https://github.com/user-attachments/assets/da0721e2-3301-43c2-9f66-e6974f3a4698)
 
 ### v)Image Resizing:
 Resize the original image to half its size and display it.
@@ -203,7 +201,8 @@ cv2.imshow('RESIZED IMAGE', resized_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-09-09 090407](https://github.com/user-attachments/assets/6a1d03bb-0c93-4207-941b-96ea80360a07)
+![Screenshot 2024-09-09 090318](https://github.com/user-attachments/assets/60fbc978-3772-4249-9148-9c5486c4599e)
+![Screenshot 2024-09-09 090331](https://github.com/user-attachments/assets/3ed7632c-9359-45e6-9aef-3fce7858cc4e)
 
 ### vi)Image Cropping
 Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
@@ -218,6 +217,7 @@ cv2.imshow('CROPPED IMAGE', roi)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090407](https://github.com/user-attachments/assets/6a1d03bb-0c93-4207-941b-96ea80360a07)
 ### vii)Image Flipping:
 (1) Flip the original image horizontally and display it.
 ```
