@@ -55,7 +55,7 @@ Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area start
 Save the final modified image to your local directory.
 
 
-##### Program:
+## Program:
 ### Developed By: KOWSALYA M
 ### Register Number: 212222230069
 
@@ -277,8 +277,8 @@ cv2.imwrite('nature_pic.jpg',img)
 ![Screenshot 2024-09-09 090632](https://github.com/user-attachments/assets/874121bf-a1c9-4fb9-be27-e4613309ad2d)
 
 ## Result:
-Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
 
+Thus the images are read, displayed, and written ,and color conversion was performed successfully using the python program.
 
 
 
