@@ -230,6 +230,7 @@ cv2.imshow('FLIPPED IMAGE', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090449](https://github.com/user-attachments/assets/747a0eff-266f-494d-862c-be8548fd88d8)
 
 (2) Flip the original image vertically and display it.
 ```
