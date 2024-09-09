@@ -65,7 +65,7 @@ cv2.imshow('WINDOW', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-09-08 120744](https://github.com/user-attachments/assets/f285a80a-b6b3-4698-953b-b35486caede1)
+![Screenshot 2024-09-08 120658](https://github.com/user-attachments/assets/3f281a31-8d3f-4e96-959b-b373d9001383)
 
 2. Draw a circle at the center of the image.
 ```
@@ -157,6 +157,8 @@ cv2.imshow('RGB-2-YCrCb',YCrCb)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090053](https://github.com/user-attachments/assets/f519b75b-8777-4709-aef0-237cf690b5e6)
+
 (4) Convert the HSV image back to RGB and display it.
 ```
 import cv2
@@ -168,12 +170,16 @@ cv2.imshow('HSV2RGB',RGB)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090132](https://github.com/user-attachments/assets/6e818c27-966e-46e0-a1b3-52887d8010ef)
+
 ### iv)Access and Manipulate Image Pixels
 (1) Access and print the value of the pixel at coordinates (100, 100)
 ```
 pixel_value = image[100, 100]
 print(f"Pixel value at (100, 100): {pixel_value}")
 ```
+![Screenshot 2024-09-09 090158](https://github.com/user-attachments/assets/53fb2f1a-8e20-4b3b-bdeb-cf314f0326fd)
+
 (2) Modify the color of the pixel at (200, 200) to white
 ```
 import cv2
@@ -185,6 +191,9 @@ cv2.imshow('MODIFIED IMAGE', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090318](https://github.com/user-attachments/assets/60fbc978-3772-4249-9148-9c5486c4599e)
+![Screenshot 2024-09-09 090331](https://github.com/user-attachments/assets/3ed7632c-9359-45e6-9aef-3fce7858cc4e)
+
 ### v)Image Resizing:
 Resize the original image to half its size and display it.
 ```
@@ -194,7 +203,10 @@ cv2.imshow('RESIZED IMAGE', resized_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090407](https://github.com/user-attachments/assets/6a1d03bb-0c93-4207-941b-96ea80360a07)
+
 ### vi)Image Cropping
+Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
 ```
 import cv2
 image = cv2.imread('naturek.jpg',1)
