@@ -65,6 +65,7 @@ cv2.imshow('WINDOW', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-08 120744](https://github.com/user-attachments/assets/f285a80a-b6b3-4698-953b-b35486caede1)
 
 2. Draw a circle at the center of the image.
 ```
@@ -78,6 +79,7 @@ cv2.imshow('WINDOW', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![naturek](https://github.com/user-attachments/assets/5103e117-bbf9-4f5a-a236-1154e86259ef)
 
 
 3.Draw a rectangle around a specific region of interest in the image.
@@ -94,6 +96,7 @@ cv2.imshow('WINDOW', res_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 085805](https://github.com/user-attachments/assets/add75b55-2ff3-446f-b7f0-f700b0ebb734)
 
 
 4.Add the text "OpenCV Drawing" at the top-left corner of the image.
@@ -112,7 +115,7 @@ cv2.imshow('WINDOW', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
+![Screenshot 2024-09-09 085842](https://github.com/user-attachments/assets/95c05efb-5590-4d91-9462-8c1c44689927)
 
 ### iii)Image Color Conversion
 (i)Convert the image from RGB to HSV and display it
@@ -126,6 +129,8 @@ cv2.imshow('RGB2HSV',hsv)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 085922](https://github.com/user-attachments/assets/1cf5b4fa-78bf-4f94-941d-5b2fb7748dd4)
+
 (2) Convert the image from RGB to GRAY and display it.
 
 ```
@@ -138,6 +143,9 @@ cv2.imshow('RGB2GRAY',gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090013](https://github.com/user-attachments/assets/c2360004-6330-4114-bba8-fd8c4aac14fc)
+
+
 (3) Convert the image from RGB to YCrCb and display it.
 ```
 import cv2
@@ -210,6 +218,7 @@ cv2.imshow('FLIPPED IMAGE', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
 (2) Flip the original image vertically and display it.
 ```
 import cv2
@@ -221,6 +230,9 @@ cv2.imshow('FLIPPED IMAGE', res)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-09-09 090532](https://github.com/user-attachments/assets/f4d998f1-00a1-4fc5-90e1-918d8c793018)
+![Screenshot 2024-09-09 090552](https://github.com/user-attachments/assets/fa353d26-4e1d-4117-8fa6-045c6cd24447)
+
 ### viii)Write and Save the Modified Image
 Save the final modified image to your local directory.
 ```
@@ -229,6 +241,7 @@ img = cv2.imread("naturek.jpg")
 img = cv2.resize(img,(300,200))
 cv2.imwrite('nature_pic.jpg',img)
 ```
+![Screenshot 2024-09-09 090632](https://github.com/user-attachments/assets/874121bf-a1c9-4fb9-be27-e4613309ad2d)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
